@@ -1,0 +1,1 @@
+# Szeged_MGT
