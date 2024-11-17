@@ -73,11 +73,9 @@ dev_loader = DataLoader(dev_dataset, batch_size=16, num_workers=2, pin_memory=Tr
 epochs = 4
 accumulation_steps = 4
 best_f1_overall = 0
-best_model_path = "best_model.pth"
 
-
-for model_index in range(1):
-    print(f"Training model {model_index + 1}/5")
+for model_index in range(3):
+    print(f"Training model {model_index + 1}/3")
 
     if log_wandb:
         wandb.init(project="-", name=f"deberta_run_{model_index + 1}_gpu1", reinit=True)
