@@ -1,4 +1,4 @@
-# Szeged_AI: 
+# SzegedAI: 
 COLING 2025: Machine-Generated Text Detection
 
 This repository contains the fine-tuning codes for the experiments that achieved 7th place in the COLING 2025 Machine-Generated Text Detection Workshop. 
